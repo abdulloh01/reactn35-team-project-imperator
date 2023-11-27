@@ -1,3 +1,7 @@
+@use "../global";
+@use "../utils/mixins" as mix;
+@use "../utils/variables" as var;
+
 .container {
   max-width: 1188px;
   margin-left: auto;
@@ -134,5 +138,16 @@ body {
     line-height: 140%;
     letter-spacing: 1.5px;
     text-transform: uppercase;
+  }
+}
+
+@media (max-width: 800px) {
+  .accordion {
+    display: none;
+  }
+  .rek-cards {
+    .rek-card-2 {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
   }
 }
