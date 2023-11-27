@@ -1,0 +1,135 @@
+@use "../global";
+@use "../utils/mixins" as mix;
+@use "../utils/variables" as var;
+
+footer{
+    .footer{
+        display: flex;
+        
+
+        .row{
+            
+            width: 100%;
+            .left{
+                .imperia{
+                    h2,p{
+                        color: var.$black;
+                        font-variant-numeric: lining-nums proportional-nums;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 140%;
+                        letter-spacing: 0.75px;
+                        text-transform: uppercase;
+                    }
+                    p{
+
+                        max-width: 265px;
+                        font-weight: 400;
+                        line-height: 160%;
+                        letter-spacing: 0.25px;
+                        text-transform: none;
+                    }
+                }
+                .contact{
+                    .top,.bottom{
+                        h2,span{
+                            color: var.$black;
+                            font-variant-numeric: lining-nums proportional-nums;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 140%;
+                            letter-spacing: 0.75px;
+                            text-transform: uppercase;
+                        }
+                        span{
+                            font-weight: 400;
+                            line-height: 160%;
+                            letter-spacing: 0.25px;
+                            text-transform: none;
+                        }
+                    }
+                }
+            }
+
+            .right{
+                .menu,.category{
+                    h2{
+                        color: var.$black;
+                        font-variant-numeric: lining-nums proportional-nums;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 140%;
+                        letter-spacing: 0.75px;
+                        text-transform: uppercase;
+                    }
+
+                    .footer__list{
+                        .footer__item{
+                            
+                            .footer__link{
+                                color: var.$black;
+                                font-variant-numeric: lining-nums proportional-nums;
+                                font-family: Montserrat;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 160%;
+                                letter-spacing: 0.25px;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .res-footer{
+        p{
+            margin-right: auto;
+            margin-left: auto;
+            width: 303px;
+            height: 72px;
+            color: var.$black;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        .row{
+            
+            div{
+                
+                a{
+                    color: var.$black;
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 34px;
+                }
+            }
+        }
+
+        .footer-end{
+            
+            .top,.bottom{
+                display: flex;
+                gap: 16px;
+
+                
+                p{
+                    display: flex;
+                    align-items: center;
+                    color: var.$black;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
