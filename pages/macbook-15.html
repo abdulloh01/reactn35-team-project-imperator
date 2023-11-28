@@ -6,6 +6,7 @@
     <title>15 | Nomonjon</title>
     <link rel="stylesheet" href="../css/macbook-15.min.css" />
     <link rel="stylesheet" href="../css/tailwind.css" />
+    <link rel="stylesheet" href="../css/home.min.css" />
     <link rel="stylesheet" href="../css/bootstrap.min.css " />
   </head>
 
@@ -108,7 +109,7 @@
         <div class="rek-card">
           <h1>FILTER</h1>
           <button class="accordion">
-            Section 1
+            Category
             <img
               style="display: block; padding-left: 220px; margin-top: -20px"
               src="../assets/images/mac15-Nomonjon/Triangle Down.svg"
@@ -116,16 +117,54 @@
             />
           </button>
           <div class="panel">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <div class="check">
+              <h2>Women’s wear</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Women’s wear</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Men’s wear</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Kid’s wear</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Shoes</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Сумки</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Accessories</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Underwear</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Decorations</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Home textiles</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>Wholesale</h2>
+              <input type="checkbox" />
+            </div>
           </div>
 
           <button class="accordion">
-            Section 2
+            Gender
             <img
               style="display: block; padding-left: 220px; margin-top: -20px"
               src="../assets/images/mac15-Nomonjon/Triangle Down.svg"
@@ -133,16 +172,18 @@
             />
           </button>
           <div class="panel">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <div class="check">
+              <h2>For men</h2>
+              <input type="checkbox" />
+            </div>
+            <div class="check">
+              <h2>For women</h2>
+              <input type="checkbox" />
+            </div>
           </div>
 
           <button class="accordion">
-            Section 3
+            Price
             <img
               style="display: block; padding-left: 220px; margin-top: -20px"
               src="../assets/images/mac15-Nomonjon/Triangle Down.svg"
@@ -150,12 +191,52 @@
             />
           </button>
           <div class="panel">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <div class="card">
+              <h4>Price</h4>
+              <div class="price-content">
+                <div>
+                  <label>Min</label>
+                  <p id="min-value">$50</p>
+                </div>
+
+                <div>
+                  <label>Max</label>
+                  <p id="max-value">$500</p>
+                </div>
+              </div>
+
+              <div class="range-slider">
+                <div class="range-fill"></div>
+
+                <input
+                  type="range"
+                  class="min-price"
+                  value="100"
+                  min="10"
+                  max="500"
+                  step="10"
+                />
+                <input
+                  type="range"
+                  class="max-price"
+                  value="250"
+                  min="10"
+                  max="500"
+                  step="10"
+                />
+              </div>
+            </div>
+            <div class="color text-xl-center pt-2">
+              <h2>Color</h2>
+              <input type="color" value="#43da86" id="style1" />
+              <input type="color" value="#32432r" id="style2" />
+              <input type="color" value="#43da86" id="style2" />
+              <input type="color" value="#ffb721" id="style2" />
+              <input type="color" value="#43da86" id="style2" />
+            </div>
+            <form action="#">
+              <button type="submit" class="btn-2">CLean Filter</button>
+            </form>
           </div>
         </div>
         <div class="rek-card-2">
@@ -441,6 +522,116 @@
         </div>
       </div>
     </section>
+    <footer class="pt-5">
+      <div class="container footer d-none d-md-block">
+        <div class="row d-flex justify-content-between">
+          <div class="left col col-md-6 d-flex justify-content-start gap-3">
+            <div class="imperia">
+              <h2>про imperia</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+                pretium aenean dignissim sit cursus dictumst adipiscing nunc.
+              </p>
+              <img src="../assets/images/home/logo-96px.svg" alt="logo" />
+            </div>
+            <div class="contact d-grid gap-3">
+              <div class="top">
+                <h2>контакты</h2>
+                <span>+998 90 958 78 87</span>
+                <br />
+                <span>support@fonon.uz</span>
+              </div>
+
+              <div class="bottom">
+                <h2>рабочее время</h2>
+                <span>По будням 9:00 to 18:00</span>
+                <br />
+                <span>В выходные 11:00 to 18:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="right col col-md-6 d-flex justify-content-around gap-5">
+            <div class="menu">
+              <h2>Меню</h2>
+              <ul class="footer__list d-flex flex-column ps-0 gap-2">
+                <li class="footer__item">
+                  <a href="" class="footer__link">Главная</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">О нас</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Категории</a>
+                </li>
+                <li class="footer__item">
+                  <a href="" class="footer__link">Сотрудничество</a>
+                </li>
+              </ul>
+            </div>
+            <div class="category">
+              <h2>категории</h2>
+              <ul class="footer__list d-flex flex-column ps-0 gap-2">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Женская одежда</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Мужская одежда</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">foДетская одежда</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Обувь</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Сумки</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Аксесуары</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container res-footer d-md-none">
+        <p>
+          High fidelity wireframes include more real content, specific
+          typography choices, and information on image.
+        </p>
+
+        <div class="row">
+          <div class="col d-flex flex-column gap-2">
+            <a href="#">Catalog</a>
+            <a href="#">Popular</a>
+            <a href="#">Pricing</a>
+            <a href="#">Features</a>
+          </div>
+          <div class="col d-flex flex-column gap-2">
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contacts</a>
+          </div>
+        </div>
+
+        <div class="row footer-end">
+          <div class="col top">
+            <img src="../assets/images/home/Icon.svg" alt="" />
+            <p>
+              Los Angeles,
+              <br />
+              359 Hidden Valley Road
+            </p>
+          </div>
+
+          <div class="col bottom">
+            <img src="../assets/images/home/Icon-1.svg" alt="" />
+            <p>Hellohero@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="../assets/js/macbook-15.js"></script>
   </body>
 </html>
