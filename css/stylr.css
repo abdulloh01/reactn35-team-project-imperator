@@ -1,0 +1,38 @@
+.container{
+margin-top: 72px;
+}
+.wraper_one{
+display: flex;
+}
+
+.small_wraper{
+margin-left: 31px;
+margin-top: 25px;
+
+}
+.ptextOne{
+margin-top: 71px;
+max-width: 745px;
+}
+.wraper_two{
+display: flex;
+margin-left: 10px;
+margin-top: 43px;
+gap: 40px;
+}
+
+.btnb {
+color: white;
+}
+.wraper_two2 button{
+max-width: 35px;
+border: none;
+background-color: rgb(255, 238, 0);
+
+}
+
+.wraper_two2{
+max-width: 93px;
+margin-left: 400px;
+}
+
