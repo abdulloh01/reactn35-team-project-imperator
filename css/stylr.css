@@ -1,3 +1,11 @@
+body{
+margin: 0 auto;
+padding: 0 auto;
+box-sizing: border-box;
+font-family: "Montserrat";
+
+}
+
 .container{
 margin-top: 72px;
 }
@@ -28,11 +36,333 @@ color: white;
 max-width: 35px;
 border: none;
 background-color: rgb(255, 238, 0);
+padding: 13px 14px;
 
 }
 
+.span1{
+max-width: 93px;
+background-color: rgba(189, 197, 203, 0.655);
+padding: 12.5px 43px;
+
+}
 .wraper_two2{
+display: flex;
+align-items: center;
 max-width: 93px;
 margin-left: 400px;
 }
 
+.card2{
+
+margin-top: 24px;
+}
+
+.there_wraper{
+display: flex;
+align-items: center;    
+margin-top: 42px;
+}
+
+.there_wraper_btn{
+margin-left: 554px;
+border: none;
+background-color: #FFC000;
+padding: 18px 111px;
+}
+
+.there_wraper_btn2{
+  margin-left: 554px;
+  border: none;
+  background-color: #FFC000;
+  padding: 18px 111px;
+  }
+
+.one_section_wraper{
+display: flex;
+justify-content: center;
+margin-top: 56px;
+}
+
+.rating1:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating1:not(:checked) > label {
+    float: left;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating1:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating1 > input:checked + label:hover,
+  .rating1 > input:checked + label:hover ~ label,
+  .rating1 > input:checked ~ label:hover,
+  .rating1 > input:checked ~ label:hover ~ label,
+  .rating1 > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating1:not(:checked) > label:hover,
+  .rating1:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating1 > input:checked ~ label {
+    color: #ffa723;
+  }
+  
+
+
+
+  .rating2:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating2:not(:checked) > label {
+    float: left;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating2:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating2 > input:checked + label:hover,
+  .rating2 > input:checked + label:hover ~ label,
+  .rating2 > input:checked ~ label:hover,
+  .rating2 > input:checked ~ label:hover ~ label,
+  .rating2 > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating2:not(:checked) > label:hover,
+  .rating2:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating2 > input:checked ~ label {
+    color: #ffa723;
+  }
+
+
+
+
+
+  .rating3:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating3:not(:checked) > label {
+    float: left;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating3:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating3 > input:checked + label:hover,
+  .rating3 > input:checked + label:hover ~ label,
+  .rating3 > input:checked ~ label:hover,
+  .rating3 > input:checked ~ label:hover ~ label,
+  .rating3 > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating3:not(:checked) > label:hover,
+  .rating3:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating3 > input:checked ~ label {
+    color: #ffa723;
+  }
+
+
+
+
+
+
+  .rating4:not(:checked) > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .rating4:not(:checked) > label {
+    float: left;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
+  }
+  
+  .rating4:not(:checked) > label:before {
+    content: '★';
+  }
+  
+  .rating4 > input:checked + label:hover,
+  .rating4 > input:checked + label:hover ~ label,
+  .rating4 > input:checked ~ label:hover,
+  .rating4 > input:checked ~ label:hover ~ label,
+  .rating4 > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+  }
+  
+  .rating4:not(:checked) > label:hover,
+  .rating4:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+  }
+  
+  .rating4 > input:checked ~ label {
+    color: #ffa723;
+  }
+  .card_one_section img{
+max-width: 265px;
+
+}
+.htext{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    
+}
+.ptext{
+    max-width: 240px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    
+}
+
+.yulduzcha{
+display: flex;
+align-items: center;
+}
+.yevro{
+margin-left: 70px;
+}
+.cardBtn{
+width:238px;
+background-color: #FFC000;
+border: none;
+border-radius: 6px;
+padding: 8px 24px;
+}
+.card_section{
+display: flex;
+gap: 30px;
+margin-top: 35px;
+margin-bottom: 64px;
+
+}
+.there_wraper_btn2{
+display: none;
+}
+
+.card3{
+display: none;
+}
+
+/* Mobilni  */
+
+@media only screen and (max-width: 375px) {
+
+  .cards{
+  max-width: 319px;
+  }
+ 
+  .ptextOne{
+  display: none;
+  }
+
+  .img{
+  width: 85px;
+  }
+  .small_wraper {
+    max-width:319px ;
+  margin-left: 190px;
+  }
+  .small_wraper h1 {
+  max-width: 210px;
+  }
+  .wraper_two2{
+    display: flex;
+    justify-content: flex-start;
+  margin-left: 50px;
+  max-width: 108px;
+  }
+  .card3{
+    display: inline;
+    max-width: 319px;
+    }
+    .card2{
+    margin-bottom:14px ;
+    max-width: 319px;
+    }
+    .cards{
+      margin-bottom:14px ;
+      }
+.there_wraper{
+display: flex;
+justify-content: center;
+}
+.there_wraper_btn{
+display: none;
+
+}
+.there_wraper_btn2{
+display: inline;
+margin-left: 0 ;
+padding: 18px 83px;
+}
+
+.mobilni{
+display: flex;
+justify-content:center ;
+margin-top: 16px;
+}
+
+.one_section_wraper{
+display: flex;
+justify-content: center;
+}
+.one_section_wraper h1{
+max-width: 315px;
+font-family: sans-serif;
+font-size: 34px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.25px;
+text-align: left;
+
+}
+
+.card_section{
+display: grid;
+grid-template-columns: repeat(2, 1fr); /* 2 ta ustun */
+  grid-template-rows: repeat(2, 1fr);    /* 2 ta qator */
+
+}
+
+
+}
+
+  
+  
