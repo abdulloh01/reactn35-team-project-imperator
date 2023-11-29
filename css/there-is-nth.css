@@ -82,21 +82,31 @@ li {
   width: 262px;
   height: 60px;
   flex-shrink: 0;
-  background-color: #FFC000;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-}
-.there-is-nth__left-side button a {
-  color: #0d0d0d;
+  color: #FFC000;
+  border: 2px solid #0D0D0D;
+  background-color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
+}
+.there-is-nth__left-side button:hover {
+  background-color: #FFC000;
+  color: #0D0D0D;
+  font-size: 21px;
+  width: 265px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 @media (max-width: 850px) {
   .there-is-nth__left-side__right-side {
