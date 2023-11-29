@@ -1,35 +1,6 @@
+@use "../layout/container";
+@use "../base/resets";
 @use "../utils/variables" as var;
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 1090px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 28px;
-  padding-left: 28px;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-li {
-  list-style-type: none;
-}
 
 .there-is-nth {
   padding-top: 55px;
@@ -92,7 +63,7 @@ li {
       font-weight: 700;
       line-height: 34px;
       &:hover {
-        background-color: #FDB000;
+        background-color: #fdb000;
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s;
