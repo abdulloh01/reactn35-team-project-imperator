@@ -87,9 +87,8 @@ li {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  color: #FFC000;
-  border: 2px solid #0D0D0D;
-  background-color: #fff;
+  background-color: #FFC000;
+  color: #0d0d0d;
   text-align: center;
   font-family: "Inter";
   font-size: 20px;
@@ -98,10 +97,7 @@ li {
   line-height: 34px;
 }
 .there-is-nth__left-side button:hover {
-  background-color: #FFC000;
-  color: #0D0D0D;
-  font-size: 21px;
-  width: 265px;
+  background-color: #FDB000;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;

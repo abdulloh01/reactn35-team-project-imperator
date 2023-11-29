@@ -83,9 +83,8 @@ li {
       -moz-border-radius: 6px;
       -ms-border-radius: 6px;
       -o-border-radius: 6px;
-      color: var.$gold;
-      border: 2px solid #0D0D0D;
-      background-color: #fff;
+      background-color: var.$gold;
+      color: #0d0d0d;
       text-align: center;
       font-family: "Inter";
       font-size: 20px;
@@ -93,16 +92,13 @@ li {
       font-weight: 700;
       line-height: 34px;
       &:hover {
-        background-color: var.$gold;
-        color: #0D0D0D;
-        font-size: 21px;
-        width: 265px;
+        background-color: #FDB000;
         transition: 0.5s;
         -webkit-transition: 0.5s;
         -moz-transition: 0.5s;
         -ms-transition: 0.5s;
         -o-transition: 0.5s;
-}
+      }
     }
     &__right-side {
       @media (max-width: 850px) {
